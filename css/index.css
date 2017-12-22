@@ -1,0 +1,16 @@
+.col-md-4 {
+  text-align: center;
+  color: white;
+}
+
+#left {
+  background-color: #22af4e;
+}
+
+#middle {
+  background-color: #b13924;
+}
+
+#right {
+  background-color: #2278af;
+}

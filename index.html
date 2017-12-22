@@ -5,32 +5,42 @@
     <title>CoinDonate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!-- xs - extra small (smartphone)-->
-    <!-- sm - small (tablet) -->
-    <!-- md - middle (laptop or notebook) -->
-    <!-- lg - large (iMac 27") -->
-    <!-- container - fixed width -->
-    <!-- container-fluid - full size width  -->
-    <!-- max columns count - 12 -->
-    <div class="container-fluid">
-      <h1>CoinDonate</h1>
-      <div class="row">
-        <!-- col - column -->
-        <div class="col-md-4" id="left">
-          Left
+
+    <header>
+      <!-- Create Bootstrap Navigation Bar -->
+      <nav class="navbar navbar-default">
+        <!-- Navbar on full screen width -->
+        <div class="container-fluid">
+          <!-- Uses for logo of site -->
+          <div class="navbar-header">
+            <!-- navbar-brand - uses for styles on logo -->
+            <a href="#" class="navbar-brand">CoinDonate</a>
+          </div>
+            <!-- Menu -->
+            <div>
+              <!-- This menu of navigation -->
+              <ul class="nav navbar-nav">
+                <!-- Active says Bootstrap which item active =) -->
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Info</a></li>
+              </ul>
+            </div>
+
         </div>
-        <div class="col-md-4" id="middle">
-          Middle
-        </div>
-        <div class="col-md-4" id="right">
-          Right
-        </div>
-      </div>
-    </div>
+      </nav>
+
+    </header>
 
   </body>
 </html>

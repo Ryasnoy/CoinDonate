@@ -3,6 +3,10 @@
   color: white;
 } */
 
+body {
+  padding: 30px;
+}
+
 #left {
   background-color: #22af4e;
 }
